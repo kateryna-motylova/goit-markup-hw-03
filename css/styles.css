@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6, p {
 a { text-decoration: none;
 }
 
+img {
+    display: inline;
+}
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -204,6 +208,7 @@ a { text-decoration: none;
 }
 
 .team-item {
+    width: calc((100% - 72px) / 4);
     background: #fff;
     border-radius: 0 0 4px 4px;
     box-shadow: 
